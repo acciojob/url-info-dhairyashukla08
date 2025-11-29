@@ -1,1 +1,8 @@
-//your JS code here. If required.
+function printUrlLength(){
+	const currentUrl = location.href;
+	const urlLength = currentUrl.length;
+	alert(`The length of the URL is: ${urlLength}`);
+	
+}
+
+printUrlLength();
